@@ -1,0 +1,58 @@
+/* Loading fonts */
+@font-face {
+    font-family: 'OffBit-Bold';
+    src: url(fonts/OffBit-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'W95FA';
+    src: url(fonts/W95FA.otf) format('opentype');
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 900px;
+    display: block;
+
+    font-family: W95FA, sans-serif;
+    padding: 25px;
+    color: papayawhip;
+}
+a {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+::selection {
+  background-color: #66ccff;
+  color:black;
+} 
+
+/*LINKS*/
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.title {
+    font-family: OffBit-Bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: papayawhip;
+    margin: 20px 0;
+}
